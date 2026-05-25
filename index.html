@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="SongLex Grade 11 is a song-based English learning website for developing lexical competence through coursebook-aligned song materials."
+    >
+    <title>SongLex Grade 11 | Learning Vocabulary through Songs</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <svg aria-hidden="true" class="icon-sprite">
+      <symbol id="icon-headphones" viewBox="0 0 24 24">
+        <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+        <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3v5z"></path>
+        <path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3v5z"></path>
+      </symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z"></path>
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m20 6-11 11-5-5"></path>
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24">
+        <path d="M8 5v14l11-7-11-7z"></path>
+      </symbol>
+      <symbol id="icon-clipboard" viewBox="0 0 24 24">
+        <path d="M9 4h6"></path>
+        <path d="M10 2h4a2 2 0 0 1 2 2v2H8V4a2 2 0 0 1 2-2z"></path>
+        <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2"></path>
+      </symbol>
+      <symbol id="icon-download" viewBox="0 0 24 24">
+        <path d="M12 3v12"></path>
+        <path d="m7 10 5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </symbol>
+      <symbol id="icon-message" viewBox="0 0 24 24">
+        <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z"></path>
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path d="M4 6h16"></path>
+        <path d="M4 12h16"></path>
+        <path d="M4 18h16"></path>
+      </symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14"></path>
+        <path d="m13 6 6 6-6 6"></path>
+      </symbol>
+    </svg>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="SongLex Grade 11 home">
+        <span class="brand-mark">SL</span>
+        <span>SongLex Grade 11</span>
+      </a>
+      <button class="icon-button nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <svg><use href="#icon-menu"></use></svg>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#how">How to Use</a>
+        <a href="#units">Units</a>
+        <a href="#assessment">Assessment</a>
+        <a href="#resources">Teacher Resources</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-primary header-action" href="#units">
+        <svg><use href="#icon-play"></use></svg>
+        Start Learning
+      </a>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Grade 11 English | B1-B2 | Kazakhstan</p>
+          <h1>SongLex Grade 11</h1>
+          <p class="hero-subtitle">A song-based website for developing lexical competence in English</p>
+          <p class="hero-text">
+            Learn coursebook vocabulary through authentic songs, structured listening tasks, collocations, speaking practice, writing prompts, and vocabulary recycling.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#units">
+              <svg><use href="#icon-headphones"></use></svg>
+              Start Learning
+            </a>
+            <a class="button button-secondary" href="#resources">
+              <svg><use href="#icon-book"></use></svg>
+              For Teachers
+            </a>
+          </div>
+          <div class="hero-tags" aria-label="Website focus">
+            <span>Solutions Grade 11</span>
+            <span>18 Song Modules</span>
+            <span>Vocabulary Checkpoints</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="SongLex learning dashboard preview">
+          <img src="assets/songlex-hero.svg" alt="Illustration of headphones, vocabulary cards, and a Grade 11 learning dashboard">
+        </div>
+      </section>
+
+      <section class="section compact" aria-labelledby="why-title">
+        <div class="section-heading">
+          <p class="eyebrow">Why songs?</p>
+          <h2 id="why-title">Authentic input that makes vocabulary memorable</h2>
+          <p>Songs combine rhythm, emotion, repetition, and real language use. In SongLex, they work as pedagogical texts for lexical competence, not as entertainment only.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <svg><use href="#icon-headphones"></use></svg>
+            <h3>Authentic input</h3>
+            <p>Students hear natural pronunciation, rhythm, and vocabulary in context.</p>
+          </article>
+          <article class="feature-card">
+            <svg><use href="#icon-book"></use></svg>
+            <h3>Contextual learning</h3>
+            <p>Words are connected with unit topics, emotions, and meaningful situations.</p>
+          </article>
+          <article class="feature-card">
+            <svg><use href="#icon-check"></use></svg>
+            <h3>Vocabulary recycling</h3>
+            <p>Each song includes useful expressions, collocations, chunks, and a mini quiz.</p>
+          </article>
+          <article class="feature-card">
+            <svg><use href="#icon-message"></use></svg>
+            <h3>Communication output</h3>
+            <p>Students use target vocabulary in speaking, writing, reflection, and checkpoints.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band" id="about" aria-labelledby="about-title">
+        <div class="two-column">
+          <div>
+            <p class="eyebrow">About the project</p>
+            <h2 id="about-title">A dissertation practical product</h2>
+            <p>
+              SongLex Grade 11 was designed for the dissertation "Enhancing High School Students' Lexical Competence through Song Materials." It follows the unit topics of Solutions Kazakhstan Edition Grade 11 and provides two song-based modules for every unit.
+            </p>
+            <p>
+              The website uses a communicative-cognitive and competence-based approach. Students first recognise vocabulary, then understand meaning in context, practise collocations, and finally use new words in speaking and writing.
+            </p>
+          </div>
+          <div class="method-card">
+            <h3>Methodological basis</h3>
+            <ul class="check-list">
+              <li>Communicative-cognitive approach</li>
+              <li>Competence-based approach</li>
+              <li>Contextual vocabulary learning</li>
+              <li>Pre-listening, while-listening, post-listening model</li>
+              <li>Receptive and productive vocabulary development</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how" aria-labelledby="how-title">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">A clear learning route for students and teachers</h2>
+        </div>
+        <div class="tabs" data-tabs>
+          <div class="tab-list" role="tablist" aria-label="How to use tabs">
+            <button class="tab-button active" type="button" role="tab" aria-selected="true" data-tab="students">For Students</button>
+            <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="teachers">For Teachers</button>
+          </div>
+          <div class="tab-panel active" id="students">
+            <ol class="step-list">
+              <li><span>1</span>Open the unit page connected with your coursebook topic.</li>
+              <li><span>2</span>Read the vocabulary focus and learning objectives.</li>
+              <li><span>3</span>Listen to Song 1 and complete the task sequence.</li>
+              <li><span>4</span>Listen to Song 2 and complete the task sequence.</li>
+              <li><span>5</span>Complete the vocabulary checkpoint.</li>
+              <li><span>6</span>Add useful words to your vocabulary notebook.</li>
+              <li><span>7</span>Use new vocabulary in speaking or writing.</li>
+            </ol>
+          </div>
+          <div class="tab-panel" id="teachers">
+            <div class="teacher-grid">
+              <article>
+                <h3>Lesson timing</h3>
+                <p>Use 40-45 minutes per song: lead-in, prediction, first listening, vocabulary noticing, post-listening output, and reflection.</p>
+              </article>
+              <article>
+                <h3>Classroom use</h3>
+                <p>Use the website as supplementary material after the coursebook unit or before vocabulary revision.</p>
+              </article>
+              <article>
+                <h3>Vocabulary strategy</h3>
+                <p>Ask students to infer meaning from context before checking dictionaries. Recycle vocabulary in later lessons.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band" id="units" aria-labelledby="units-title">
+        <div class="section-heading">
+          <p class="eyebrow">Unit pathway</p>
+          <h2 id="units-title">Choose a coursebook unit</h2>
+          <p>Each unit contains two song modules, a vocabulary checkpoint, a reflection task, and a QR-code placeholder.</p>
+        </div>
+        <div class="progress-panel">
+          <div>
+            <h3>Progress tracker</h3>
+            <p>Tick the units you complete. Your progress is saved in this browser.</p>
+          </div>
+          <div id="progress-tracker" class="progress-tracker" aria-label="Unit progress tracker"></div>
+        </div>
+        <div id="unit-grid" class="unit-grid"></div>
+      </section>
+
+      <section class="section" aria-labelledby="unit-pages-title">
+        <div class="section-heading">
+          <p class="eyebrow">Learning materials</p>
+          <h2 id="unit-pages-title">Unit pages and song modules</h2>
+        </div>
+        <div id="unit-pages" class="unit-pages"></div>
+      </section>
+
+      <section class="section band" id="assessment" aria-labelledby="assessment-title">
+        <div class="section-heading">
+          <p class="eyebrow">Assessment</p>
+          <h2 id="assessment-title">Tools for measuring lexical competence</h2>
+          <p>Assessment focuses on vocabulary recognition, meaning in context, collocations, productive use, motivation, and engagement.</p>
+        </div>
+        <div class="assessment-grid">
+          <article class="resource-card">
+            <h3>Diagnostic vocabulary pre-test</h3>
+            <p>Google Form or printable test with recognition, context, collocation, and productive sentence tasks.</p>
+            <a class="button button-secondary" href="#">
+              <svg><use href="#icon-clipboard"></use></svg>
+              Google Form placeholder
+            </a>
+          </article>
+          <article class="resource-card">
+            <h3>Final vocabulary post-test</h3>
+            <p>Recognition, context, collocation, 100-word paragraph, and 60-90 second speaking task.</p>
+            <a class="button button-secondary" href="#">
+              <svg><use href="#icon-clipboard"></use></svg>
+              Post-test placeholder
+            </a>
+          </article>
+          <article class="resource-card">
+            <h3>Student self-assessment</h3>
+            <ul>
+              <li>I can recognise target words in songs.</li>
+              <li>I can guess meaning from context.</li>
+              <li>I can use collocations correctly.</li>
+              <li>I feel more motivated to learn vocabulary.</li>
+            </ul>
+          </article>
+          <article class="resource-card">
+            <h3>Questionnaire</h3>
+            <p>10 Likert-scale statements on song-based learning, task usefulness, confidence, and website usability.</p>
+          </article>
+          <article class="resource-card">
+            <h3>Interview questions</h3>
+            <p>Five semi-structured questions about memorable units, useful tasks, contextual vocabulary, difficulties, and improvements.</p>
+          </article>
+          <article class="resource-card">
+            <h3>Teacher observation</h3>
+            <p>Checklist for participation, prediction, listening, vocabulary noticing, collocation use, output, and engagement.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="resources" aria-labelledby="resources-title">
+        <div class="section-heading">
+          <p class="eyebrow">Teacher resources</p>
+          <h2 id="resources-title">Ready classroom support</h2>
+        </div>
+        <div class="resource-layout">
+          <article class="resource-card">
+            <h3>Lesson model template</h3>
+            <p>Lead-in, vocabulary prediction, two listening stages, focused task, output, recycling, and reflection.</p>
+            <a class="button button-secondary" href="#">
+              <svg><use href="#icon-download"></use></svg>
+              Download placeholder
+            </a>
+          </article>
+          <article class="resource-card">
+            <h3>Worksheet template</h3>
+            <p>Before listening, while listening, after listening, vocabulary box, and reflection sections.</p>
+            <a class="button button-secondary" href="#">
+              <svg><use href="#icon-download"></use></svg>
+              Download placeholder
+            </a>
+          </article>
+          <article class="resource-card">
+            <h3>Vocabulary notebook</h3>
+            <p>Word, meaning, collocation or chunk, example sentence, and topic or unit.</p>
+            <a class="button button-secondary" href="#">
+              <svg><use href="#icon-download"></use></svg>
+              Download placeholder
+            </a>
+          </article>
+        </div>
+        <details class="wide-details">
+          <summary>Song selection and copyright-friendly use</summary>
+          <p>Use songs that match the coursebook topic, contain useful B1-B2 vocabulary, are age-appropriate, and are available through official platforms. Do not publish full lyrics or upload copied audio. Build tasks around vocabulary, collocations, short phrases, paraphrase, and student-created output.</p>
+        </details>
+        <details class="wide-details">
+          <summary>Differentiation tips</summary>
+          <p>For weaker students, pre-teach five words, provide word banks, and reduce writing length. For stronger students, add synonym work, connotation questions, and student-created mini quizzes.</p>
+        </details>
+      </section>
+
+      <section class="section band" id="contact" aria-labelledby="contact-title">
+        <div class="two-column">
+          <div>
+            <p class="eyebrow">Project information</p>
+            <h2 id="contact-title">Contact / dissertation details</h2>
+            <div class="info-list">
+              <p><strong>Project author:</strong> [Name Surname]</p>
+              <p><strong>University:</strong> [University name]</p>
+              <p><strong>Dissertation supervisor:</strong> [Supervisor name]</p>
+              <p><strong>School / practice base:</strong> [School name]</p>
+              <p><strong>Email:</strong> [author.email@example.com]</p>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name">
+            </label>
+            <label>
+              Role
+              <select name="role">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Researcher</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Write your message"></textarea>
+            </label>
+            <button class="button button-primary" type="submit">
+              <svg><use href="#icon-message"></use></svg>
+              Send Message
+            </button>
+            <p class="form-note" id="form-note">Contact form placeholder for Tilda implementation.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>SongLex Grade 11 | Learning Vocabulary through Songs | Dissertation practical product</p>
+      <p>Song audio and video materials should be accessed through official external platforms. Full lyrics are not reproduced.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
