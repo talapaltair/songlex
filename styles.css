@@ -766,6 +766,57 @@ p {
   color: var(--muted);
 }
 
+.assessment-details {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+  overflow: hidden;
+}
+
+.assessment-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 14px;
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 900;
+  list-style: none;
+}
+
+.assessment-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.assessment-details summary::after {
+  content: "+";
+  color: var(--purple);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.assessment-details[open] summary::after {
+  content: "-";
+}
+
+.assessment-details .details-body {
+  padding: 0 14px 14px;
+  color: var(--muted);
+}
+
+.assessment-details .details-body p + p,
+.assessment-details .details-body table + p,
+.assessment-details .details-body ol + p {
+  margin-top: 10px;
+}
+
+.observation-table th:not(:first-child),
+.observation-table td:not(:first-child) {
+  width: 74px;
+  text-align: center;
+}
+
 .wide-details {
   margin-top: 12px;
   border: 1px solid var(--border);
